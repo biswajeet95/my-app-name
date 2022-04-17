@@ -1,0 +1,364 @@
+.App {
+  text-align: center;
+}
+* {
+  /* color: white; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #12181e;
+}
+:root {
+  --head-nav: #1c2b36;
+  --body-clr: black;
+  --small-line: rgba(175, 40, 3, 0.607);
+  --barr-line: #42b0f5;
+}
+
+/* ///////////////// HEADER //////////////////// */
+.header {
+  background: var(--head-nav);
+  position: fixed;
+
+  box-shadow: 1px 12px 13px rgba(16, 15, 15, 0.452);
+  height: 8% !important;
+  width: 100%;
+  min-width: 320px;
+  padding: 0 45px 0 0;
+  z-index: 908;
+}
+
+/* //////// SIDEBAR /////////////////////////////// */
+.side-bar {
+  width: 12em;
+  top: 4%;
+  left: 0;
+  z-index: 2;
+  display: block;
+  min-height: 100%;
+  background-color: #16242f;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+}
+.side-bar .side-list {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 5em;
+  line-height: 30px;
+  margin-left: 3px;
+}
+.link-name {
+  text-align: left;
+  text-decoration: none;
+  color: #f4f7fa;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.link-name:hover {
+  color: rgb(251, 250, 250);
+  background: #12181e;
+  padding: 5px 10px;
+}
+li {
+  text-align: left;
+}
+
+/* ////// ALL MAIN section//////// */
+/* 
+.main-container {
+  height: 100vh;
+  width: 85%;
+
+  display: "flex";
+  top: 9%;
+  left: 12%;
+
+  position: absolute;
+} */
+
+/* /////////////     Dashboard   /////////////////////// */
+.pr-head .col {
+  text-align: left;
+  border: none;
+}
+
+.dashboard .row .col {
+  border: none;
+}
+.pr-head h4 {
+  color: black;
+}
+.pr-head p {
+  color: var(--small-line);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.dropdown-content {
+  position: absolute;
+  padding: 15px;
+  background: #f4f7fa;
+  width: 100%;
+  top: 100%;
+  left: -0.1%;
+  cursor: pointer;
+}
+
+.dropdown-content .dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transform: all 0.2s;
+}
+
+.dashboard .row {
+  width: 90%;
+  margin: 10px;
+}
+
+.progress-head .col {
+  margin: 10px;
+  background: #16242f;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.dashboard .row .progress-file {
+  background: #16242f;
+  margin: 10px;
+  height: 70vh;
+}
+.progress-section {
+  height: 200em;
+}
+.percentage-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.percentage-div div {
+  display: flex;
+}
+.percentage-div div div {
+  display: flex;
+  flex-direction: column;
+}
+.progress-name {
+  margin-top: 2%;
+}
+.progress {
+  position: relative;
+  width: 500px;
+  height: 10px;
+  background-color: gray;
+}
+.pro-bar {
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  background: var(--barr-line);
+}
+.pro-bar-2 {
+  position: absolute;
+  width: 80%;
+  height: 16px;
+  background: var(--barr-line);
+}
+.pro-bar-3 {
+  position: absolute;
+  width: 50%;
+  height: 16px;
+  background: var(--barr-line);
+}
+.pro-bar-4 {
+  position: absolute;
+  width: 30%;
+  height: 16px;
+  background: var(--barr-line);
+}
+
+/* //////////////////////////    END HERE  ///////////////////// */
+
+/* ////////////////////////// Facility vew /////////////////////// */
+/* ////////////////////////////// Facility vIew END ///////////////////// */
+
+
+
+/* ////////////////////////// comparison file /////////////////////// */
+/* ////////////////////////////// comparison file END ///////////////////// */
+
+
+/* ////////////////////////// CONFIG file /////////////////////// */
+
+
+
+
+
+/* ////////////////////////////// CONFIG file END ///////////////////// */
+.config-container .row{
+
+}
+ /* .or-col h5{
+  border:none;
+}
+
+ 
+.col div {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+ .picker-icon{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: #42b0f5; */
+ 
+  height:3em;
+ 
+}  
+
+.picker-icon div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #16242f;
+
+  height:3em;
+  /* border: 1px solid black; */
+  padding:2px;
+ 
+} 
+
+
+/* .picker-icon div .picker-icon div .date-box{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #16242f;
+margin:5px;
+  height:3em;
+  border:none;
+  padding:2px;
+
+} */
+
+
+
+.icon-dropdown {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height:3em;
+ 
+}
+.icon-search{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height:3em;
+}
+
+
+ 
+
+
+
+/* //////////////////////  MASTER PAGE /////////////////////// */
+
+.container {
+  position: absolute;
+  top: 6em;
+  left: 13em;
+}
+.row {
+  width: 130%;
+}
+.row .col {
+  border: 1px solid black;
+  height: 2.5em;
+}
+
+/* /////////////sync file/////// */
+.sync-containter {
+  top: 7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sync-containter .row {
+  width: 50%;
+}
+.last-hd h5 {
+  color: black;
+}
+.sync-containter .col {
+  height: 10em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #16242f;
+}
+
+.sync-containter .col div {
+  text-align: left;
+}
+
+.sync-containter .col div h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.sync-containter .col div p {
+  color: var(--small-line);
+  font-size: 12px;
+}
+
+.sync-containter .col button {
+  border: none;
+  padding: 10px;
+  color: black;
+  font-weight: 500;
+  background: var(--small-line);
+}
+.popup-container {
+  margin: auto;
+}
+.popup-container .col {
+  background: #16242f;
+  margin: 10em;
+}
+
+.date-box {
+  margin: 5px;
+  padding: 8px;
+  background: #16242f;
+}
+::placeholder {
+  color: white;
+}
+
+.popup-container .popup {
+  width: 14em;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-container .popup .close {
+  padding: 5px;
+  float: right;
+}
